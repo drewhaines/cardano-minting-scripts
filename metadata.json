@@ -1,0 +1,376 @@
+{
+  "721": {
+    "7300e48e9358be0423f6cea78617f325f0e6be41c56c60a89f0c3182": {
+      "CardanoAudio1": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmUy6Fv3bXyctQSjiJ7jAQKLuh6kKxq8wC3Fsn5UbVJ82U",
+        "name": "Cardano Audio 1",
+        "song": "Configuration II - We Are Not The Same",
+        "files": [
+          {
+            "name": "Configuration II - We Are Not The Same",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx"
+          }
+        ]
+      },
+      "CardanoAudio2": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Lucio x Ghoul",
+        "image": "ipfs://QmP6qAr112StKHKnv8xMeN54EkB4suMe7Ycjow6wiwvw1X",
+        "name": "Cardano Audio 2",
+        "song": "Configuration III - Fainting Phantom",
+        "files": [
+          {
+            "name": "Configuration III - Fainting Phantom",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+          }
+        ]
+      },
+      "CardanoAudio3": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Eden Mason & Levi Lucio",
+        "image": "ipfs://QmQdqFh5uTZykUx1xBxzkyLrYkY1bVyoyY1dF5oLSuAiZH",
+        "name": "Cardano Audio 3",
+        "song": "xanny addy",
+        "files": [
+          {
+            "name": "xanny addy",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://Qma8cjDTVt3bieAydtjK84tRLLmHCq2jsxKfffkqV4tsEu"
+          }
+        ]
+      },
+      "CardanoAudio4": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Lucio x Ghoul",
+        "image": "ipfs://QmZrHVbWtvpQTU3WCSGNgzgYCv3Ds3S9p5YCU3wHWFkpC9",
+        "name": "Cardano Audio 4",
+        "song": "Configuration IV - Full Counter",
+        "files": [
+          {
+            "name": "Configuration IV - Full Counter",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmZo9mhyqrfiomb46zwx4RCS2tzSRp81WELoyMZbGQZ9iR"
+          }
+        ]
+      },
+      "CardanoAudio5": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmVrsirvCYvUwQnS6szWKr9uo735LZ98Q14KH4MRVkV56n",
+        "name": "Cardano Audio 5",
+        "song": "Configuration V - Takahama",
+        "files": [
+          {
+            "name": "Configuration V - Takahama",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmPaVWcwxNUmntyXGaHbEBp7Epouxn3TUUSU8ccyyqRSvZ"
+          }
+        ]
+      },
+      "CardanoAudio6": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmUBsk89Kr13FfaCewwnJdL18U4REgBnnKxaGUMwB3nP5x",
+        "name": "Cardano Audio 6",
+        "song": "Configuration VI - Energy Capture",
+        "files": [
+          {
+            "name": "Configuration VI - Energy Capture",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmSUwFJQxGPGbRj1yuMWsJ79Tx6KQsgNGE2JQGxodfwKw7"
+          }
+        ]
+      },
+      "CardanoAudio7": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmZzVdFVve6rZJ3THRsLGBPg2BHCAZN2KeMvmmFHrxtgx2",
+        "name": "Cardano Audio 7",
+        "song": "Configuration VII - Dance Baby, I Got ADA",
+        "files": [
+          {
+            "name": "Configuration VII - Dance Baby, I Got ADA",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmNcd5eiKFn3xoyeFGsxR2TKnhakA9ZeGvbsqmGB94S4kj"
+          }
+        ]
+      },
+      "CardanoAudio8": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmXZRo8upYbfLs5VrSW1uoPBzPzNZFUJKK4pfXde4uMRq5",
+        "name": "Cardano Audio 8",
+        "song": "Configuration VIII - RELAX",
+        "files": [
+          {
+            "name": "Configuration VIII - RELAX",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmW6pB26qGEvEv9TNUNZW6eEoo9RvVMmgQ74dAddU8dYGe"
+          }
+        ]
+      },
+      "CardanoAudio9": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmWUYyvXoa52wTyurAJernfyR4BH18Ht5XKvJDKj4m7Vux",
+        "name": "Cardano Audio 9",
+        "song": "Configuration IX - Cardano Girl",
+        "files": [
+          {
+            "name": "Configuration IX - Cardano Girl",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmNRLmhMPdPfTSSA6cebP29CkKGTZSZpkFUFXSXUoz44VN"
+          }
+        ]
+      },
+      "CardanoAudio10": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmNgjj7KX6rRnMkvhkkTE1MeqBbiLqAMMwXosVoE7vSX46",
+        "name": "Cardano Audio 10",
+        "song": "Configuration X - Y",
+        "files": [
+          {
+            "name": "Configuration X - Y",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmXQic97fFzvFpZ8aSUNbFaJu7piHMPHHxFz6XSGVMs4or"
+          }
+        ]
+      },
+      "CardanoAudio11": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmS5taoCSuPsUH7G54695ghKCNAXBcHESLeJepE6eBqpAX",
+        "name": "Cardano Audio 11",
+        "song": "Configuration XI - Nina",
+        "files": [
+          {
+            "name": "Configuration XI - Nina",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmRoZCMm5vP9Hjr8TxjMkmqifbcmUSpLkGMRsjxAS8gKX3"
+          }
+        ]
+      },
+      "CardanoAudio12": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmZLEhpSoZZH7gf9L5Qhd5kQXkn25Ro3bwsu47Mmpz4kyR",
+        "name": "Cardano Audio 12",
+        "song": "Configuration XII - Sept 12",
+        "files": [
+          {
+            "name": "Configuration XII - Sept 12",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmRamxGs3FBUh38ijpDWjkk7J5e9TjfvMCHJdrLW28B8R1"
+          }
+        ]
+      },
+      "CardanoAudio13": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://Qmapx6kx33EVygrcKqc1KZJHW5GBmgKwCeCEKKxDxZaxME",
+        "name": "Cardano Audio 13",
+        "song": "Configuration XIII - Kodak",
+        "files": [
+          {
+            "name": "Configuration XIII - Kodak",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmfDhKrkJ9Xh4jPmmFRN8zNgxwnwG7fZ4ZEniU96FQofyv"
+          }
+        ]
+      },
+      "CardanoAudio14": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmefF5EDPBum55aG7p8W93Q8MNPcFf1PCHkjg3LyZaJYyQ",
+        "name": "Cardano Audio 14",
+        "song": "Configuration I - So, Anyone Remember Blockbuster?",
+        "files": [
+          {
+            "name": "Configuration I - So, Anyone Remember Blockbuster?",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmcSWHR14MEuomouaJAEjycRSYRPXkrEKGUXjKTuJt7vnQ"
+          }
+        ]
+      },
+      "CardanoAudio15": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Eden Mason",
+        "image": "ipfs://Qmf4sFZSiNhE8bN4UrvEzEUgz6hyr7kpS47mk1d2ifwTnK",
+        "name": "Cardano Audio 15",
+        "song": "Wake Up",
+        "files": [
+          {
+            "name": "Wake Up",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmdB75kozd29nAWNpMfD7wpXdE3pY2ch3T2YLhbeyMj5EC"
+          }
+        ]
+      },
+      "CardanoAudio16": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmQXfrauY8P1GhWxTevZvLaQbxMdAZWuEd3JihjqcD5HkY",
+        "name": "Cardano Audio 16",
+        "song": "BF (Rare)",
+        "files": [
+          {
+            "name": "BF (Rare)",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmeynPEsVRLCG1ZEyrcxQZvMvWJ7ym5ohXMWKzYC7Nu1VP"
+          }
+        ]
+      },
+      "CardanoAudio17": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Eden Mason & Levi Lucio",
+        "image": "ipfs://QmXfhRbuf7f6CJJJAqUVaANv2b2x7zEie19vNfx48JCgvG",
+        "name": "Cardano Audio 17",
+        "song": "CardanoAudio x Yummi Universe",
+        "files": [
+          {
+            "name": "CardanoAudio x Yummi Universe",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmcUEjBHg3WE2Hwy8oCvK5RhHjQwyc6FjnkYcKJgDLjKP7"
+          }
+        ]
+      },
+      "CardanoAudio18": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Eden Mason",
+        "image": "ipfs://QmaeRxDMfH5Crx7viLDY6wKsC9o4JzWNii7NRGWMANczmU",
+        "name": "Cardano Audio 18",
+        "song": "Downfall (slow-reverb)",
+        "files": [
+          {
+            "name": "Downfall (slow-reverb)",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmbKudLExNbD4dZU9Uni3zMP8VvHRw1PjpYTnyZBLdh66s"
+          }
+        ]
+      },
+      "CardanoAudio19": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi Lucio",
+        "image": "ipfs://QmXVP9UDWfB8dsxeWX5qFtYS1yvDqYT7mKQUbQvAWd4Y1A",
+        "name": "Cardano Audio 19",
+        "song": "Big Drew Goin 2 School",
+        "files": [
+          {
+            "name": "Big Drew Goin 2 School",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmZD1Q6d5khVhcu3wJBqVcB42WF3seb95yp5fAaZqsx8nS"
+          }
+        ]
+      },
+      "CardanoAudio20": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Cardano Audio - Various Artist",
+        "image": "ipfs://QmUy6Fv3bXyctQSjiJ7jAQKLuh6kKxq8wC3Fsn5UbVJ82U",
+        "name": "Cardano Audio 20",
+        "song": "The Cardano Tape Volume I - The Full Album",
+        "files": [
+          {
+            "name": "Configuration II - We Are Not The Same",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx"
+          },
+          {
+            "name": "Configuration III - Fainting Phantom",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+          },
+          {
+            "name": "Configuration IV - Full Counter",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmZo9mhyqrfiomb46zwx4RCS2tzSRp81WELoyMZbGQZ9iR"
+          },
+          {
+            "name": "Configuration V - Takahama",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmPaVWcwxNUmntyXGaHbEBp7Epouxn3TUUSU8ccyyqRSvZ"
+          },
+          {
+            "name": "Configuration VI - Energy Capture",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmSUwFJQxGPGbRj1yuMWsJ79Tx6KQsgNGE2JQGxodfwKw7"
+          },
+          {
+            "name": "Configuration VII - Dance Baby, I Got ADA",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmNcd5eiKFn3xoyeFGsxR2TKnhakA9ZeGvbsqmGB94S4kj"
+          },
+          {
+            "name": "Configuration VIII - RELAX",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmW6pB26qGEvEv9TNUNZW6eEoo9RvVMmgQ74dAddU8dYGe"
+          },
+          {
+            "name": "Configuration IX - Cardano Girl",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmNRLmhMPdPfTSSA6cebP29CkKGTZSZpkFUFXSXUoz44VN"
+          },
+          {
+            "name": "Configuration X - Y",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmXQic97fFzvFpZ8aSUNbFaJu7piHMPHHxFz6XSGVMs4or"
+          },
+          {
+            "name": "Configuration XI - Nina",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmRoZCMm5vP9Hjr8TxjMkmqifbcmUSpLkGMRsjxAS8gKX3"
+          },
+          {
+            "name": "Configuration XII - Sept 12",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmRamxGs3FBUh38ijpDWjkk7J5e9TjfvMCHJdrLW28B8R1"
+          },
+          {
+            "name": "Configuration XIII - Kodak",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmfDhKrkJ9Xh4jPmmFRN8zNgxwnwG7fZ4ZEniU96FQofyv"
+          },
+          {
+            "name": "Configuration I - So, Anyone Remember Blockbuster?",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmcSWHR14MEuomouaJAEjycRSYRPXkrEKGUXjKTuJt7vnQ"
+          },
+          {
+            "name": "xanny addy",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://Qma8cjDTVt3bieAydtjK84tRLLmHCq2jsxKfffkqV4tsEu"
+          },
+          {
+            "name": "Wake Up",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmdB75kozd29nAWNpMfD7wpXdE3pY2ch3T2YLhbeyMj5EC"
+          },
+          {
+            "name": "BF (Rare)",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmeynPEsVRLCG1ZEyrcxQZvMvWJ7ym5ohXMWKzYC7Nu1VP"
+          },
+          {
+            "name": "CardanoAudio x Yummi Universe",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmcUEjBHg3WE2Hwy8oCvK5RhHjQwyc6FjnkYcKJgDLjKP7"
+          },
+          {
+            "name": "Downfall (slow-reverb)",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmbKudLExNbD4dZU9Uni3zMP8VvHRw1PjpYTnyZBLdh66s"
+          },
+          {
+            "name": "Big Drew Goin 2 School",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmZD1Q6d5khVhcu3wJBqVcB42WF3seb95yp5fAaZqsx8nS"
+          }
+        ]
+      }
+    }
+  }
+}

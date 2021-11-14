@@ -1,0 +1,76 @@
+{
+  "721": {
+    "7300e48e9...": {
+      "Token001": {
+        "name": "Cardano Audio 1"
+        ...
+      },
+      "Token002": {
+        "name": "Cardano Audio 2"
+        ...
+      },
+      "Token003": {
+        "name": "Cardano Audio 3"
+        ...
+      }
+    }
+  },
+  "777": {
+    "7300e48e9...": {
+      "pct": 0.1,
+      "addr": "addr123",
+      "Token001": {
+        "pct": 0.2,
+        "addr": "addr456"
+      },
+      "Token002": {
+        "pct": 0.15,
+        "addr": "addr789"
+      }
+    }
+  }
+}
+
+
+{
+  "721": {
+    "7300e48e9...": {
+      "Token001": {
+        "name": "Cardano Audio 1"
+        ...
+        "pct": 0.2,
+        "addr": "addr456"
+      },
+      "Token002": {
+        "name": "Cardano Audio 2"
+        ...
+        "pct": 0.15,
+        "addr": "addr789"
+      },
+      "Token003": {
+        "name": "Cardano Audio 3"
+        ...
+        "pct": 0.1,
+        "addr": "addr123",
+      }
+    }
+  }
+}
+
+
+{
+  "777": {
+    "<policy_id>": {
+      "pct": <float>,
+      "addr": <string>,
+      "<asset_name_1>": {
+        "pct": <float>,
+        "addr": <string>,
+      },
+      "<asset_name_2>": {
+        "pct": <float>,
+        "addr": <string>,
+      }
+    }
+  }
+}

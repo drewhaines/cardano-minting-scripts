@@ -1,0 +1,451 @@
+[
+  {
+    "id": "CardanoAudio1",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmeNL3PkyAaQDetZWmRqbV1BvczZ7HzG6Tvf5RcYiv6boE",
+    "name": "Cardano Audio 1",
+    "Track": "Configuration II - We Are Not The Same",
+    "Link to Track": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx",
+    "files": [
+      {
+        "name": "Configuration II - We Are Not The Same",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio2",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Lucio x Ghoul",
+    "image": "ipfs://QmZsY3pgQwUWJd3j9gyjdsEwqxpLZ4S9uo42eKmG4uujY2",
+    "name": "Cardano Audio 2",
+    "Track": "Configuration III - Fainting Phantom",
+    "Link to Track": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x",
+    "files": [
+      {
+        "name": "Configuration III - Fainting Phantom",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio3",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Eden Mason & Levi Lucio",
+    "image": "ipfs://QmdAC92VuQUzyZCujVGucUTogpGqbiJhHZQJKtC1sJjH4T",
+    "name": "Cardano Audio 3",
+    "Track": "xanny addy",
+    "Link to Track": "ipfs://Qma8cjDTVt3bieAydtjK84tRLLmHCq2jsxKfffkqV4tsEu",
+    "files": [
+      {
+        "name": "xanny addy",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://Qma8cjDTVt3bieAydtjK84tRLLmHCq2jsxKfffkqV4tsEu"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio4",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Lucio x Ghoul",
+    "image": "ipfs://QmRH8EPyJYQs3gntdJc4rywypGFrfSLSdWfZXYKtjJhB3s",
+    "name": "Cardano Audio 4",
+    "Track": "Configuration IV - Full Counter",
+    "Link to Track": "ipfs://QmZo9mhyqrfiomb46zwx4RCS2tzSRp81WELoyMZbGQZ9iR",
+    "files": [
+      {
+        "name": "Configuration IV - Full Counter",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmZo9mhyqrfiomb46zwx4RCS2tzSRp81WELoyMZbGQZ9iR"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio5",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmStNUb3Me7LbW67rBwW8GXUDrwys8D5iVbjzEMRpfxa5V",
+    "name": "Cardano Audio 5",
+    "Track": "Configuration V - Takahama",
+    "Link to Track": "ipfs://QmPaVWcwxNUmntyXGaHbEBp7Epouxn3TUUSU8ccyyqRSvZ",
+    "files": [
+      {
+        "name": "Configuration V - Takahama",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmPaVWcwxNUmntyXGaHbEBp7Epouxn3TUUSU8ccyyqRSvZ"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio6",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmNUg3zh2q93PHRq9GHqxtv1L5d31k1zEPhsy31U5zkvLL",
+    "name": "Cardano Audio 6",
+    "Track": "Configuration VI - Energy Capture",
+    "Link to Track": "ipfs://QmSUwFJQxGPGbRj1yuMWsJ79Tx6KQsgNGE2JQGxodfwKw7",
+    "files": [
+      {
+        "name": "Configuration VI - Energy Capture",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmSUwFJQxGPGbRj1yuMWsJ79Tx6KQsgNGE2JQGxodfwKw7"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio7",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmbmmzAChFkYTzTY4Yq44qfAUV5AToiUzWauEhvA9yJeRH",
+    "name": "Cardano Audio 7",
+    "Track": "Configuration VII - Dance Baby, I Got ADA",
+    "Link to Track": "ipfs://QmNcd5eiKFn3xoyeFGsxR2TKnhakA9ZeGvbsqmGB94S4kj",
+    "files": [
+      {
+        "name": "Configuration VII - Dance Baby, I Got ADA",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmNcd5eiKFn3xoyeFGsxR2TKnhakA9ZeGvbsqmGB94S4kj"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio8",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmW11oHZkVPRhyDgSrWabUT9QamjspvrT2nckRwEtPf4TF",
+    "name": "Cardano Audio 8",
+    "Track": "Configuration VIII - RELAX",
+    "Link to Track": "ipfs://QmW6pB26qGEvEv9TNUNZW6eEoo9RvVMmgQ74dAddU8dYGe",
+    "files": [
+      {
+        "name": "Configuration VIII - RELAX",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmW6pB26qGEvEv9TNUNZW6eEoo9RvVMmgQ74dAddU8dYGe"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio9",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmZUBzt9GajRvww33Zb77hVYx6B83UpDjKopym52VRCjV8",
+    "name": "Cardano Audio 9",
+    "Track": "Configuration IX - Cardano Girl",
+    "Link to Track": "ipfs://QmNRLmhMPdPfTSSA6cebP29CkKGTZSZpkFUFXSXUoz44VN",
+    "files": [
+      {
+        "name": "Configuration IX - Cardano Girl",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmNRLmhMPdPfTSSA6cebP29CkKGTZSZpkFUFXSXUoz44VN"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio10",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmUgoSB7pBFJD2UFi6BUTMn5KiZgn3JZZRDXKdHSF2VptS",
+    "name": "Cardano Audio 10",
+    "Track": "Configuration X - Y",
+    "Link to Track": "ipfs://QmXQic97fFzvFpZ8aSUNbFaJu7piHMPHHxFz6XSGVMs4or",
+    "files": [
+      {
+        "name": "Configuration X - Y",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmXQic97fFzvFpZ8aSUNbFaJu7piHMPHHxFz6XSGVMs4or"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio11",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmQcgeppa7P7A3Xgy5tyrNzwnomKjf3DcdZVdP1ejUY6wV",
+    "name": "Cardano Audio 11",
+    "Track": "Configuration XI - Nina",
+    "Link to Track": "ipfs://QmRoZCMm5vP9Hjr8TxjMkmqifbcmUSpLkGMRsjxAS8gKX3",
+    "files": [
+      {
+        "name": "Configuration XI - Nina",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmRoZCMm5vP9Hjr8TxjMkmqifbcmUSpLkGMRsjxAS8gKX3"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio12",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmU9D1Da38E76i6V95CZKtaivkzzUu4G6w8FuLUEUkVgpK",
+    "name": "Cardano Audio 12",
+    "Track": "Configuration XII - Sept 12",
+    "Link to Track": "ipfs://QmRamxGs3FBUh38ijpDWjkk7J5e9TjfvMCHJdrLW28B8R1",
+    "files": [
+      {
+        "name": "Configuration XII - Sept 12",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmRamxGs3FBUh38ijpDWjkk7J5e9TjfvMCHJdrLW28B8R1"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio13",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmdrR6rfvj9w2icNqtjoX474GotFr8zPDFKsuQmtbeBqdk",
+    "name": "Cardano Audio 13",
+    "Track": "Configuration XIII - Kodak",
+    "Link to Track": "ipfs://QmfDhKrkJ9Xh4jPmmFRN8zNgxwnwG7fZ4ZEniU96FQofyv",
+    "files": [
+      {
+        "name": "Configuration XIII - Kodak",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmfDhKrkJ9Xh4jPmmFRN8zNgxwnwG7fZ4ZEniU96FQofyv"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio14",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmU2YcJWJoqnCbo3pF1PkPhpg8rQUEW2rFTrFqVCqApDmM",
+    "name": "Cardano Audio 14",
+    "Track": "Configuration I - So, Anyone Remember Blockbuster?",
+    "Link to Track": "ipfs://QmcSWHR14MEuomouaJAEjycRSYRPXkrEKGUXjKTuJt7vnQ",
+    "files": [
+      {
+        "name": "Configuration I - So, Anyone Remember Blockbuster?",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmcSWHR14MEuomouaJAEjycRSYRPXkrEKGUXjKTuJt7vnQ"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio15",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Eden Mason",
+    "image": "ipfs://QmXcEEJVFCPzcSn6aoTjGXydUBxScjazPyrXNrYMaz1fZU",
+    "name": "Cardano Audio 15",
+    "Track": "Wake Up",
+    "Link to Track": "ipfs://QmdB75kozd29nAWNpMfD7wpXdE3pY2ch3T2YLhbeyMj5EC",
+    "files": [
+      {
+        "name": "Wake Up",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmdB75kozd29nAWNpMfD7wpXdE3pY2ch3T2YLhbeyMj5EC"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio16",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmaZRXTEYpWr7x85MF95yukZcRrqXvRQzfGb2WP3iyrKsX",
+    "name": "Cardano Audio 16",
+    "Track": "BF (Rare)",
+    "Link to Track": "ipfs://QmeynPEsVRLCG1ZEyrcxQZvMvWJ7ym5ohXMWKzYC7Nu1VP",
+    "files": [
+      {
+        "name": "BF (Rare)",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmeynPEsVRLCG1ZEyrcxQZvMvWJ7ym5ohXMWKzYC7Nu1VP"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio17",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Eden Mason & Levi Lucio",
+    "image": "ipfs://QmUYnLfadcXjhiaVBLmYhxwAjYTMvAtGAVrJqRsHkmNzmh",
+    "name": "Cardano Audio 17",
+    "Track": "CardanoAudio x Yummi Universe",
+    "Link to Track": "ipfs://QmcUEjBHg3WE2Hwy8oCvK5RhHjQwyc6FjnkYcKJgDLjKP7",
+    "files": [
+      {
+        "name": "CardanoAudio x Yummi Universe",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmcUEjBHg3WE2Hwy8oCvK5RhHjQwyc6FjnkYcKJgDLjKP7"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio18",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Eden Mason",
+    "image": "ipfs://QmUpAJLagAPRpCLgKM2Zkzw2XE9VSJUDhfWkvsXcey14WR",
+    "name": "Cardano Audio 18",
+    "Track": "Downfall (slow-reverb)",
+    "Link to Track": "ipfs://QmbKudLExNbD4dZU9Uni3zMP8VvHRw1PjpYTnyZBLdh66s",
+    "files": [
+      {
+        "name": "Downfall (slow-reverb)",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmbKudLExNbD4dZU9Uni3zMP8VvHRw1PjpYTnyZBLdh66s"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio19",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmVCzsFfThBW3gYxpnuXqukjUo3ZpTuoE6mBAiSn1b7asJ",
+    "name": "Cardano Audio 19",
+    "Track": "Big Drew Goin 2 School",
+    "Link to Track": "ipfs://QmZD1Q6d5khVhcu3wJBqVcB42WF3seb95yp5fAaZqsx8nS",
+    "files": [
+      {
+        "name": "Big Drew Goin 2 School",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmZD1Q6d5khVhcu3wJBqVcB42WF3seb95yp5fAaZqsx8nS"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio20",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Cardano Audio - Various Artist",
+    "image": "ipfs://QmdyN4j6qPrgLEey3MbrRjoBXujKa5Vo4tep8fVgESfP8d",
+    "name": "Cardano Audio 20",
+    "Track": "The Cardano Tape Volume I - Full Album",
+    "files": [
+      {
+        "name": "Configuration I - So, Anyone Remember Blockbuster?",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmcSWHR14MEuomouaJAEjycRSYRPXkrEKGUXjKTuJt7vnQ"
+      },
+      {
+        "name": "Configuration II - We Are Not The Same",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx"
+      },
+      {
+        "name": "Configuration III - Fainting Phantom",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+      },
+      {
+        "name": "Configuration IV - Full Counter",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmZo9mhyqrfiomb46zwx4RCS2tzSRp81WELoyMZbGQZ9iR"
+      },
+      {
+        "name": "Configuration V - Takahama",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmPaVWcwxNUmntyXGaHbEBp7Epouxn3TUUSU8ccyyqRSvZ"
+      },
+      {
+        "name": "Configuration VI - Energy Capture",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmSUwFJQxGPGbRj1yuMWsJ79Tx6KQsgNGE2JQGxodfwKw7"
+      },
+      {
+        "name": "Configuration VII - Dance Baby, I Got ADA",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmNcd5eiKFn3xoyeFGsxR2TKnhakA9ZeGvbsqmGB94S4kj"
+      },
+      {
+        "name": "Configuration VIII - RELAX",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmW6pB26qGEvEv9TNUNZW6eEoo9RvVMmgQ74dAddU8dYGe"
+      },
+      {
+        "name": "Configuration IX - Cardano Girl",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmNRLmhMPdPfTSSA6cebP29CkKGTZSZpkFUFXSXUoz44VN"
+      },
+      {
+        "name": "Configuration X - Y",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmXQic97fFzvFpZ8aSUNbFaJu7piHMPHHxFz6XSGVMs4or"
+      },
+      {
+        "name": "Configuration XI - Nina",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmRoZCMm5vP9Hjr8TxjMkmqifbcmUSpLkGMRsjxAS8gKX3"
+      },
+      {
+        "name": "Configuration XII - Sept 12",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmRamxGs3FBUh38ijpDWjkk7J5e9TjfvMCHJdrLW28B8R1"
+      },
+      {
+        "name": "Configuration XIII - Kodak",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmfDhKrkJ9Xh4jPmmFRN8zNgxwnwG7fZ4ZEniU96FQofyv"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio21",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Lucio x Ghoul",
+    "image": "ipfs://QmXk9XXFY8nhfiU4GPDPEG2AhaKDbnm9HLeW4Ub3rqswcy",
+    "type": "video/mp4",
+    "src": "ipfs://QmNp1hkDMN9AcPB8DVG95Fbc7vDdbYPrSTX4mUMNzamgSU",
+    "name": "Cardano Audio 21",
+    "Track": "Configuration III - Fainting Phantom",
+    "files": [
+      {
+        "name": "LFG!!!",
+        "mediaType": "video/mp4",
+        "src": "ipfs://QmNp1hkDMN9AcPB8DVG95Fbc7vDdbYPrSTX4mUMNzamgSU"
+      },
+      {
+        "name": "Configuration III - Fainting Phantom",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio22",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmXoB6f6a3mmnWxHwoQpRSo4pWC8wSgjR23u79wR4p2jiz",
+    "name": "Cardano Audio 22",
+    "Track": "Gucci Metal",
+    "Link to Track": "ipfs://Qmf2BuaMpYyWQ2431sHpCcEuRyBCnqyn425NRcxZhZXmYS",
+    "files": [
+      {
+        "name": "Gucci Metal",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://Qmf2BuaMpYyWQ2431sHpCcEuRyBCnqyn425NRcxZhZXmYS"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio23",
+    "Series": "Cardano Audio Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmR9SiBABXB76BUrmv3LXqyUeRXrpJ77xkGuCca2DrtY9a",
+    "name": "Cardano Audio 23",
+    "Track": "One Take Destination",
+    "Link to Track": "ipfs://QmbubrYjVeoUg54zEx5tRHhYptKVWv2jFqjBTP2jyTHAMq",
+    "files": [
+      {
+        "name": "One Take Destination",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmbubrYjVeoUg54zEx5tRHhYptKVWv2jFqjBTP2jyTHAMq"
+      }
+    ]
+  },
+  {
+    "id": "CardanoAudio24",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmWyF6ZUY1664DHNA9ufkN235dKFS1LUFxoeYa6bNyEJXn",
+    "name": "Cardano Audio 24",
+    "Track": "22224",
+    "Link to Track": "ipfs://QmTWiQwi8PyXoKj48rYTWpLgcjNu7kwiebEYLG7LQb23ph",
+    "files": [
+      {
+        "name": "22224",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmTWiQwi8PyXoKj48rYTWpLgcjNu7kwiebEYLG7LQb23ph"
+      }
+    ]
+  }
+]

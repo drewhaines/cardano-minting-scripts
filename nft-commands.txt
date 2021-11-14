@@ -1,0 +1,426 @@
+https://developers.cardano.org/docs/native-tokens/minting-nfts/
+
+
+To use Daedalus wallets
+
+export CARDANO_NODE_SOCKET_PATH=~/Library/Application\ Support/Daedalus\ Mainnet/cardano-node.socket
+
+export CARDANO_NODE_SOCKET_PATH=~/Library/Application\ Support/Daedalus\ Testnet/cardano-node.socket
+
+
+cardano-cli query tip --mainnet
+cardano-cli query tip --testnet-magic 1097911063
+
+
+
+https://twitter.com/dailyinvention/status/1437987022396956673
+
+
+Create NFT
+
+1. create a working directory
+mkdir nft
+cd nft/
+
+
+2. set variables
+
+tokenname="CardanoAudio3"
+tokenamount="1"
+fee="0"
+output="0"
+
+
+
+ipfs_hash="QmQdqFh5uTZykUx1xBxzkyLrYkY1bVyoyY1dF5oLSuAiZH"
+artist="Eden Mason & Levi Lucio"
+album="The Cardano Tape Volume I"
+song="xanny addy"
+image_hash="QmQdqFh5uTZykUx1xBxzkyLrYkY1bVyoyY1dF5oLSuAiZH"
+song_hash="Qma8cjDTVt3bieAydtjK84tRLLmHCq2jsxKfffkqV4tsEu"
+
+
+3. (if need new wallet) create wallet 
+
+cardano-cli address key-gen --verification-key-file payment.vkey --signing-key-file payment.skey
+
+cardano-cli address build --payment-verification-key-file payment.vkey --out-file payment.addr --mainnet
+
+
+4. set wallet address
+address=$(cat payment.addr)
+
+
+5. fund the address with 5 to 10 ada.
+
+
+6. verify address has been funded
+
+cardano-cli query utxo --address $address --mainnet
+
+
+text="$(cardano-cli query utxo --address $address --mainnet | grep lovelace)"
+IFS=' '
+read -A strarr <<< "$text"
+txhash="$strarr[1]"
+txix="$strarr[2]"
+funds="$strarr[3]"
+echo $txhash
+echo $txix
+echo $funds
+
+
+7. export protocol paramters
+
+cardano-cli query protocol-parameters --mainnet --out-file protocol.json
+
+
+8. create folder for policy
+
+mkdir policy
+
+cardano-cli address key-gen \
+    --verification-key-file policy/policy.vkey \
+    --signing-key-file policy/policy.skey
+
+
+9. create policy script 
+
+echo "{" >> policy/policy.script
+echo "  \"type\": \"all\"," >> policy/policy.script 
+echo "  \"scripts\":" >> policy/policy.script 
+echo "  [" >> policy/policy.script 
+echo "   {" >> policy/policy.script 
+echo "     \"type\": \"before\"," >> policy/policy.script 
+echo "     \"slot\": $(expr $(cardano-cli query tip --mainnet | jq '.slot?') + 30000000)" >> policy/policy.script
+echo "   }," >> policy/policy.script 
+echo "   {" >> policy/policy.script
+echo "     \"type\": \"sig\"," >> policy/policy.script 
+echo "     \"keyHash\": \"$(cardano-cli address key-hash --payment-verification-key-file policy/policy.vkey)\"" >> policy/policy.script 
+echo "   }" >> policy/policy.script
+echo "  ]" >> policy/policy.script 
+echo "}" >> policy/policy.script
+
+It will fail if jq isn't installed so you'll probably have to manually update the policy script so the keyhash and slotnumber are correct. You should probably just install jq.
+https://stedolan.github.io/jq/
+
+Get keyHash
+cardano-cli address key-hash --payment-verification-key-file policy/policy.vkey
+
+Get tip for latest block number
+cardano-cli query tip --mainnet
+
+or just use 69696969 for next year
+
+The slot in policy.script is the last slot before the policy is uneditable (no more minting/buring)
+
+
+10. set more variables
+slotnumber="69696969"
+script="policy/policy.script"
+
+11. Generate policy ID
+cardano-cli transaction policyid --script-file ./policy/policy.script >> policy/policyID
+
+
+12. Create metadata.json
+
+echo "{" >> metadata.json
+echo "  \"721\": {" >> metadata.json 
+echo "    \"$(cat policy/policyID)\": {" >> metadata.json 
+echo "      \"$(echo $tokenname)\": {" >> metadata.json
+echo "        \"description\": \"This is my first NFT thanks to the Cardano foundation\"," >> metadata.json
+echo "        \"name\": \"Cardano foundation NFT guide token\"," >> metadata.json
+echo "        \"id\": \"1\"," >> metadata.json
+echo "        \"image\": \"ipfs://$(echo $ipfs_hash)\"" >> metadata.json
+echo "      }" >> metadata.json
+echo "    }" >> metadata.json 
+echo "  }" >> metadata.json 
+echo "}" >> metadata.json
+
+Edit metadata.json so policy id, tokenname and everything is correct
+
+
+https://github.com/cardano-foundation/CIPs/blob/ed48e5a38b75eb31f16288338a3c1ef93fecde47/CIP-NFTMetadataStandard.md
+
+
+13. Get current data from wallet
+cardano-cli query utxo --address $address --mainnet
+
+14. Set more variables
+txhash="a6b068416c983798049606fd8185f489154e5eea4ee4adc8c2c6ef85c17be40a"
+txix="0"
+funds="3909402"
+
+
+text="$(cardano-cli query utxo --address $address --mainnet | grep lovelace)"
+IFS=' '
+read -A strarr <<< "$text"
+txhash="$strarr[1]"
+txix="$strarr[2]"
+funds="$strarr[3]"
+echo $txhash
+echo $txix
+echo $funds
+
+policyid=$(cat policy/policyID)
+
+
+
+
+15. Check everything set correctly
+
+echo $fee
+echo $address
+echo $output
+echo $tokenamount
+echo $policyid
+echo $tokenname
+echo $slotnumber
+echo $script
+
+
+16. Build raw trasnaction
+
+cardano-cli transaction build-raw \
+--fee $fee  \
+--tx-in "$txhash#$txix"  \
+--tx-out "$address+$output+$tokenamount $policyid.$tokenname +1 7300e48e9358be0423f6cea78617f325f0e6be41c56c60a89f0c3182.CardanoAudio1 +1 7300e48e9358be0423f6cea78617f325f0e6be41c56c60a89f0c3182.CardanoAudio2" \
+--mint="$tokenamount $policyid.$tokenname" \
+--minting-script-file $script \
+--metadata-json-file metadata.json  \
+--invalid-hereafter $slotnumber \
+--out-file matx.raw
+
+
+17. Calc fees / output
+
+fee=$(cardano-cli transaction calculate-min-fee --tx-body-file matx.raw --tx-in-count 1 --tx-out-count 1 --witness-count 1 --mainnet --protocol-params-file protocol.json | cut -d " " -f1)
+
+output=$(expr $funds - $fee)
+
+
+18. Re-issue with new fee/output
+
+cardano-cli transaction build-raw \
+--fee $fee  \
+--tx-in "$txhash#$txix"  \
+--tx-out "$address+$output+$tokenamount $policyid.$tokenname +1 7300e48e9358be0423f6cea78617f325f0e6be41c56c60a89f0c3182.CardanoAudio1 +1 7300e48e9358be0423f6cea78617f325f0e6be41c56c60a89f0c3182.CardanoAudio2" \
+--mint="$tokenamount $policyid.$tokenname" \
+--minting-script-file $script \
+--metadata-json-file metadata.json  \
+--invalid-hereafter $slotnumber \
+--out-file matx.raw
+
+
+19. Sign the transaction 
+
+cardano-cli transaction sign  \
+--signing-key-file payment.skey  \
+--signing-key-file policy/policy.skey  \
+--mainnet --tx-body-file matx.raw  \
+--out-file matx.signed
+
+
+20. Submit transaction
+
+cardano-cli transaction submit --tx-file matx.signed --mainnet
+
+
+21. Check the transaction and view on pool
+cardano-cli query utxo --address $address --mainnet
+
+https://pool.pm/addr1vxe7dwqu60sf0jka6t5wuxpyt6urc5wewe5mcsc7u5l0rycc6vk5p
+
+
+
+Burn
+
+1. Get funds/tx data
+cardano-cli query utxo --address $address --mainnet
+
+2. set variables
+burnfee="0"
+burnoutput="0"
+
+text="$(cardano-cli query utxo --address $address --mainnet | grep lovelace)"
+IFS=' '
+read -A strarr <<< "$text"
+txhash="$strarr[1]"
+txix="$strarr[2]"
+funds="$strarr[3]"
+echo $txhash
+echo $txix
+echo $funds
+
+3. build transaction
+cardano-cli transaction build-raw --fee "$burnfee" --tx-in "$txhash#$txix" --tx-out "$address+$burnoutput" --mint="-1 $policyid.$tokenname" --minting-script-file $script --invalid-hereafter $slotnumber --out-file burning.raw
+
+4. Calc burn fee
+burnfee=$(cardano-cli transaction calculate-min-fee --tx-body-file burning.raw --tx-in-count 1 --tx-out-count 1 --witness-count 1 --mainnet --protocol-params-file protocol.json | cut -d " " -f1)
+
+5. Calc leftover
+burnoutput=$(expr $funds - $burnfee)
+
+6. Rerun build transaction
+cardano-cli transaction build-raw --fee "$burnfee" --tx-in "$txhash#$txix" --tx-out "$address+$burnoutput" --mint="-1 $policyid.$tokenname" --minting-script-file $script --invalid-hereafter $slotnumber --out-file burning.raw
+
+7. Sign it
+cardano-cli transaction sign  --signing-key-file payment.skey  --signing-key-file policy/policy.skey --mainnet  --tx-body-file burning.raw --out-file burning.signed
+
+8. Submit transaction
+cardano-cli transaction submit --tx-file burning.signed --mainnet
+
+
+
+
+
+
+
+
+text="$(cardano-cli query utxo --address $address --mainnet | grep lovelace)"
+IFS=' '
+read -A strarr <<< "$text"
+txhash="$strarr[1]"
+txix="$strarr[2]"
+funds="$strarr[3]"
+echo $txhash
+echo $txix
+echo $funds
+
+
+
+
+cardano-cli query utxo --address $address --mainnet | grep lovelace
+
+cardano-cli query utxo --mainnet --address $address | awk ‘{sum+= $3} END {print sum}’
+
+
+
+jq '."721"."2ae32078cf92fa41b06df17cd7927a7d2fea903c244b4f0ede9db2e8"' metadata.json 
+jq ."721"."${policyid}" metadata.json
+
+
+jq -c 'del(.key3)' test.json > tmp.$$.json && mv tmp.$$.json test.json
+
+
+
+69904722
+69696969
+
+
+
+{
+  "721": {
+    "2ae32078cf92fa41b06df17cd7927a7d2fea903c244b4f0ede9db2e8": {
+      "CardanoBeats0001": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi",
+        "image": "ipfs://QmQdqFh5uTZykUx1xBxzkyLrYkY1bVyoyY1dF5oLSuAiZH",
+        "name": "Config III Fainting Phantom",
+        "song": "Config III Fainting Phantom",
+        "files": [
+          {
+            "name": "Config III Fainting Phantom",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+          }
+        ]
+      },
+      "CardanoBeats0002": {
+        "album": "The Cardano Tape Volume I",
+        "artist": "Levi",
+        "image": "ipfs://QmQdqFh5uTZykUx1xBxzkyLrYkY1bVyoyY1dF5oLSuAiZH",
+        "name": "Config III Fainting Phantom",
+        "song": "Config III Fainting Phantom",
+        "files": [
+          {
+            "name": "Config III Fainting Phantom",
+            "mediaType": "audio/mpeg",
+            "src": "ipfs://QmeBmZwDowaoRdajH873PMpvMcVQCkxXDaWfteHsTt1p3x"
+          }
+        ]
+      },
+    }
+  }
+}
+
+
+
+https://www.reddit.com/r/CardanoDevelopers/comments/p9qiga/native_nft_royalties_vs_smart_contracts/
+
+
+
+Berry-Pool
+/
+cardanocli-js
+
+
+
+Simple transaction
+
+https://developers.cardano.org/docs/stake-pool-course/handbook/create-simple-transaction/
+
+
+cardano-cli transaction build-raw \
+--tx-in "19f002e4ccabbb4b8fa7b366065e746d014f2d9ea141c5757e8d2f473d07ffbd#0" \
+--tx-out "addr1qyla0ljd9qgr50tss6zz5c2slkevvrxd6kjxnu64vpj7dhesst7y5kkhatxzmrflqju6jcgezeye077tm5yyt7x3h5es8xn2fk +0" \
+--tx-out "addr1vxph4tfl9xxwdyeff7vh3w6x83hvkr0nqqcxpc5zwh0n3hs8qke8a +0 +1 9660ffe51647473899a25d25d11e123263a82c508439e2c5015890d6.SurfPhoto" \
+--invalid-hereafter 0 \
+--fee 0 \
+--out-file tx.draft
+
+
+
+
+calc fee
+
+cardano-cli transaction calculate-min-fee \
+--tx-body-file tx.draft \
+--tx-in-count 1 \
+--tx-out-count 2 \
+--witness-count 1 \
+--byron-witness-count 0 \
+--mainnet \
+--protocol-params-file protocol.json
+
+
+output = total - amount to send - fee estimate
+
+expr 2454041 - 1000000 - 177117
+
+1276924
+
+
+Calc TTL. Ex get current slot and add 200
+
+cardano-cli query tip --mainnet
+
+expr 40186920 + 200
+40187120
+
+
+cardano-cli transaction build-raw \
+--tx-in "19f002e4ccabbb4b8fa7b366065e746d014f2d9ea141c5757e8d2f473d07ffbd#0" \
+--tx-out "addr1qyla0ljd9qgr50tss6zz5c2slkevvrxd6kjxnu64vpj7dhesst7y5kkhatxzmrflqju6jcgezeye077tm5yyt7x3h5es8xn2fk +1000000" \
+--tx-out "addr1vxph4tfl9xxwdyeff7vh3w6x83hvkr0nqqcxpc5zwh0n3hs8qke8a +1276924 +1 9660ffe51647473899a25d25d11e123263a82c508439e2c5015890d6.SurfPhoto" \
+--invalid-hereafter 40187120 \
+--fee 177117 \
+--out-file tx.raw
+
+
+
+cardano-cli transaction sign \
+--tx-body-file tx.raw \
+--signing-key-file payment.skey \
+--mainnet \
+--out-file tx.signed
+
+
+
+cardano-cli transaction submit \
+--tx-file tx.signed \
+--mainnet
+
+
+

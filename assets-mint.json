@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CardanoAudio25",
+    "Series": "The Cardano Tape Volume I",
+    "Artist": "Levi Lucio",
+    "image": "ipfs://QmeNL3PkyAaQDetZWmRqbV1BvczZ7HzG6Tvf5RcYiv6boE",
+    "name": "Cardano Audio 25",
+    "Track": "Configuration II - We Are Not The Same",
+    "Link to Track": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx",
+    "files": [
+      {
+        "name": "Configuration II - We Are Not The Same",
+        "mediaType": "audio/mpeg",
+        "src": "ipfs://QmT3qNzXWBW91fSRexanzektKc8HShUUQxsGZ4b5xRCFkx"
+      }
+    ]
+  }
+]
